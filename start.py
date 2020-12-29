@@ -271,7 +271,7 @@ def start_vnc_server():
 
 
 def update_jvm_options():
-    path = '/home/tws/Jts/current/tws.vmoptions'
+    path = '/home/tws/Jts/tws.vmoptions'
     agent_line = -1
 
     with open(path, 'r+') as fp:
